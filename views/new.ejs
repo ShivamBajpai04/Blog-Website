@@ -1,0 +1,47 @@
+<%- include("partials/header.ejs") %>
+
+<form
+	action="/post"
+	method="POST"
+	enctype="multipart/form-data"
+	class="max-w-md mx-auto mt-8">
+	<label
+		for="title"
+		class="block text-sm font-semibold mb-2">
+		Title
+	</label>
+	<input
+		type="text"
+		id="title"
+		name="title"
+		required
+		class="w-full border border-gray-300 p-2 rounded mb-4" />
+
+	<label
+		for="text"
+		class="block text-sm font-semibold mb-2">
+		Write your content here
+	</label>
+	<textarea
+		id="text"
+		name="text"
+		required
+		class="w-full border border-gray-300 p-2 rounded mb-4"></textarea>
+	<label
+		for="image"
+		class="block text-sm font-semibold mb-2">
+		Image
+	</label>
+	<input
+		type="file"
+		id="image"
+		name="image"
+		accept="image/*"
+		class="w-full border border-gray-300 p-2 rounded mb-4" />
+
+	<input
+		type="submit"
+		value="Submit"
+		class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 cursor-pointer" />
+</form>
+<%- include("partials/footer.ejs") %>

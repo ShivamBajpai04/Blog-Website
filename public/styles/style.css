@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+@tailwind variants;
+
+.post{
+    max-width: 75%;
+    padding: 15px;
+    height: fit-content;
+    text-align: left;
+    margin:auto;
+}
+
+.post h1{
+    text-align: center;
+}
+
+.standard-image-size {
+    max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+    width: 400px; /* Set the desired width */
+    /* You can adjust the width to your preferred standard size */
+  }
