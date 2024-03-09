@@ -1,8 +1,0 @@
-{
-    "prettier.bracketSameLine": true,
-    "prettier.printWidth": 300,
-    "prettier.singleAttributePerLine": true,
-    "prettier.singleQuote": false,
-    "prettier.useTabs": true,
-    "prettier.tabWidth": 4
-}
