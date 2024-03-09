@@ -41,6 +41,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/edit/:id", (req, res) => {
+	
 	const postId = parseInt(req.params.id, 10); // Parse postId from URL parameter
 
 	// Find the post with the specified ID
